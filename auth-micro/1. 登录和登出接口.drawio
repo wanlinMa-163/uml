@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-13T06:16:36.509Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="O9IIg0X5qa34M3e0Q-iJ" version="14.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-13T06:17:33.937Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="d1lf6dwJWCKgHs20RFCq" version="14.1.9" type="github">
   <diagram id="2YiFPJz1SB312BxSUlOT" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -52,7 +52,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IG3FBpjwl3Gu4T_X83VF-33" value="获取此客户端的service account token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;" parent="IG3FBpjwl3Gu4T_X83VF-32" vertex="1" connectable="0">
+        <mxCell id="IG3FBpjwl3Gu4T_X83VF-33" value="获取此客户端的service account token，&lt;br&gt;需要client_id和secert" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;" parent="IG3FBpjwl3Gu4T_X83VF-32" vertex="1" connectable="0">
           <mxGeometry x="0.0275" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -238,7 +238,7 @@
         </mxCell>
         <mxCell id="IJelXBSJ-IOQ2__WsTzv-30" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Verdana;" edge="1" target="IJelXBSJ-IOQ2__WsTzv-4" parent="IG3FBpjwl3Gu4T_X83VF-4">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="37.5" y="1230" as="sourcePoint" />
+            <mxPoint x="50" y="1230" as="sourcePoint" />
             <mxPoint x="-42.5" y="1230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
