@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-14T01:37:38.975Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="rbIzMPAZwU61h7Oafril" version="14.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-14T05:29:06.085Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="6fJihyWZGANLDeKqt3Mp" version="14.2.2" type="github">
   <diagram id="2YiFPJz1SB312BxSUlOT" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -343,7 +343,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-62" value="执行登出请求，需要携带token和refresh_token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;" parent="IJelXBSJ-IOQ2__WsTzv-61" vertex="1" connectable="0">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-62" value="执行注销请求，需要携带token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;" parent="IJelXBSJ-IOQ2__WsTzv-61" vertex="1" connectable="0">
           <mxGeometry x="0.1799" y="1" relative="1" as="geometry">
             <mxPoint x="-22.5" y="-4" as="offset" />
           </mxGeometry>
@@ -479,7 +479,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-87" value="返回access_token和refresh_token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;" parent="IJelXBSJ-IOQ2__WsTzv-86" vertex="1" connectable="0">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-87" value="返回状态码200" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;" parent="IJelXBSJ-IOQ2__WsTzv-86" vertex="1" connectable="0">
           <mxGeometry x="-0.1001" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -488,6 +488,11 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="667.5" y="1880" as="sourcePoint" />
             <mxPoint x="287.5" y="1880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rJzJVaZC-vmzQSh7hSrh-1" value="返回注销结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IJelXBSJ-IOQ2__WsTzv-88">
+          <mxGeometry x="-0.1233" y="2" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IJelXBSJ-IOQ2__WsTzv-89" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Verdana;" parent="1" target="IJelXBSJ-IOQ2__WsTzv-63" edge="1">
