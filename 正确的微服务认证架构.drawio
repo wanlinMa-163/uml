@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-14T03:49:52.931Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="8jDYghuNX8kuBhmTcUJI" version="14.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-14T03:54:55.070Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="TvfjYaXB9dDtPo-rbHdi" version="14.2.2" type="github">
   <diagram id="_KXm9FjtC93ZwVqki_WM" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -18,7 +18,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="-_fd9rpGxrSI4Euc9Kwn-36" value="1. /serviceAccount 需要 clientId和client_credentials返回service account token&lt;br&gt;2. 解密access_token的密钥" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-_fd9rpGxrSI4Euc9Kwn-35">
+        <mxCell id="-_fd9rpGxrSI4Euc9Kwn-36" value="1. /sso/serviceAccount 需要 clientId和client_credentials返回service account token&lt;br&gt;2. /sso/getAccessToken 获取解密access_token的密钥" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-_fd9rpGxrSI4Euc9Kwn-35">
           <mxGeometry x="-0.2564" y="-1" relative="1" as="geometry">
             <mxPoint x="35" y="-1" as="offset" />
           </mxGeometry>
@@ -87,9 +87,9 @@
             <mxPoint y="-64.83" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-_fd9rpGxrSI4Euc9Kwn-20" value="/serviceAccount/，需要 clientId和client_credentials" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-_fd9rpGxrSI4Euc9Kwn-12">
+        <mxCell id="-_fd9rpGxrSI4Euc9Kwn-20" value="1. /serviceAccount/，需要 clientId和client_credentials&lt;br&gt;2.&amp;nbsp;&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;/sso/dynamicRegisterClient 此路径需要用户的access_token，就是此用户需要登录过&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-_fd9rpGxrSI4Euc9Kwn-12">
           <mxGeometry x="-0.5385" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="48" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-_fd9rpGxrSI4Euc9Kwn-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.383;entryY=-0.133;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-_fd9rpGxrSI4Euc9Kwn-3" target="-_fd9rpGxrSI4Euc9Kwn-19">
@@ -98,8 +98,8 @@
         <mxCell id="-_fd9rpGxrSI4Euc9Kwn-3" value="网关" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="490" y="140" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="-_fd9rpGxrSI4Euc9Kwn-5" value="/sso/login&lt;br&gt;/sso/logout/&lt;br&gt;/sso/refresh&lt;br&gt;/client/dynamicRegisterClient&lt;br&gt;&lt;br&gt;/user/info/&lt;br&gt;/user/resetPassword&lt;br&gt;/user/register&lt;br&gt;&lt;br&gt;/order/list&lt;br&gt;&lt;br&gt;/pay/list" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
-          <mxGeometry x="810" width="290" height="210" as="geometry" />
+        <mxCell id="-_fd9rpGxrSI4Euc9Kwn-5" value="/sso/login&lt;br&gt;/sso/logout/&lt;br&gt;/sso/refresh&lt;br&gt;&lt;br&gt;/client/dynamicRegisterClient&lt;br&gt;&lt;br&gt;/user/info/&lt;br&gt;/user/resetPassword&lt;br&gt;/user/register&lt;br&gt;&lt;br&gt;/order/list&lt;br&gt;&lt;br&gt;/pay/list" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="810" width="290" height="220" as="geometry" />
         </mxCell>
         <mxCell id="-_fd9rpGxrSI4Euc9Kwn-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-_fd9rpGxrSI4Euc9Kwn-7" target="-_fd9rpGxrSI4Euc9Kwn-44">
           <mxGeometry relative="1" as="geometry" />
@@ -136,14 +136,14 @@
         <mxCell id="-_fd9rpGxrSI4Euc9Kwn-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-_fd9rpGxrSI4Euc9Kwn-9" target="-_fd9rpGxrSI4Euc9Kwn-11">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="670" y="870" />
-              <mxPoint x="955" y="870" />
+              <mxPoint x="670" y="800" />
+              <mxPoint x="955" y="800" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="-_fd9rpGxrSI4Euc9Kwn-40" value="/pay&amp;nbsp; &amp;nbsp;order服务不允许调用pay服务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-_fd9rpGxrSI4Euc9Kwn-39">
           <mxGeometry x="0.1071" y="-4" relative="1" as="geometry">
-            <mxPoint x="-53.58000000000001" y="-4" as="offset" />
+            <mxPoint x="-26.250000000000014" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-_fd9rpGxrSI4Euc9Kwn-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-_fd9rpGxrSI4Euc9Kwn-9" target="-_fd9rpGxrSI4Euc9Kwn-44">
@@ -176,16 +176,6 @@
         </mxCell>
         <mxCell id="-_fd9rpGxrSI4Euc9Kwn-57" value="/order/list" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-_fd9rpGxrSI4Euc9Kwn-33">
           <mxGeometry x="-0.3241" y="3" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="-_fd9rpGxrSI4Euc9Kwn-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.926;exitY=1.067;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-_fd9rpGxrSI4Euc9Kwn-19">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1262" y="467" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="-_fd9rpGxrSI4Euc9Kwn-75" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;/client/dynamicRegisterClient&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-_fd9rpGxrSI4Euc9Kwn-74">
-          <mxGeometry x="-0.2682" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -239,23 +229,6 @@
         </mxCell>
         <mxCell id="-_fd9rpGxrSI4Euc9Kwn-68" value="非数据库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#E1FF1F;" vertex="1" parent="1">
           <mxGeometry x="540" y="1050" width="60" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="-_fd9rpGxrSI4Euc9Kwn-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-_fd9rpGxrSI4Euc9Kwn-76" target="-_fd9rpGxrSI4Euc9Kwn-44">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1235" y="550" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="-_fd9rpGxrSI4Euc9Kwn-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.017;entryY=0.588;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-_fd9rpGxrSI4Euc9Kwn-76" target="-_fd9rpGxrSI4Euc9Kwn-50">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1235" y="967" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="-_fd9rpGxrSI4Euc9Kwn-76" value="provider-client" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="1160" y="655.25" width="150" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
