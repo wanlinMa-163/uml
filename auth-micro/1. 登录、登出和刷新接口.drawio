@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-13T06:21:18.320Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="EwEA0uz2OFdoRE1tc1N_" version="14.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-14T01:32:20.231Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="bhmY5_QbN_HwJl642NHt" version="14.1.9" type="github">
   <diagram id="2YiFPJz1SB312BxSUlOT" name="Page-1">
-    <mxGraphModel dx="1673" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -82,28 +82,28 @@
             <mxPoint x="140" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-2" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Verdana;" edge="1" target="IJelXBSJ-IOQ2__WsTzv-5" parent="IG3FBpjwl3Gu4T_X83VF-4">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-2" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Verdana;" parent="IG3FBpjwl3Gu4T_X83VF-4" target="IJelXBSJ-IOQ2__WsTzv-5" edge="1">
           <mxGeometry x="-0.0095" y="20" width="80" relative="1" as="geometry">
             <mxPoint x="-222.5" y="700" as="sourcePoint" />
             <mxPoint x="-162.5" y="700" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-3" value="执行刷新请求，需要携带refresh_token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;" vertex="1" connectable="0" parent="IJelXBSJ-IOQ2__WsTzv-2">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-3" value="执行刷新请求，需要携带refresh_token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;" parent="IJelXBSJ-IOQ2__WsTzv-2" vertex="1" connectable="0">
           <mxGeometry x="0.1799" y="1" relative="1" as="geometry">
             <mxPoint x="-22.5" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="IG3FBpjwl3Gu4T_X83VF-4">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="IG3FBpjwl3Gu4T_X83VF-4" vertex="1">
           <mxGeometry x="-240" y="680" width="15" height="570" as="geometry" />
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="IG3FBpjwl3Gu4T_X83VF-4">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="IG3FBpjwl3Gu4T_X83VF-4" vertex="1">
           <mxGeometry x="52.5" y="690" width="15" height="550" as="geometry" />
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Verdana;" vertex="1" parent="IG3FBpjwl3Gu4T_X83VF-4">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Verdana;" parent="IG3FBpjwl3Gu4T_X83VF-4" vertex="1">
           <mxGeometry x="55" y="760" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-7" value="self call" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontFamily=Verdana;" edge="1" target="IJelXBSJ-IOQ2__WsTzv-6" parent="IG3FBpjwl3Gu4T_X83VF-4">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-7" value="self call" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontFamily=Verdana;" parent="IG3FBpjwl3Gu4T_X83VF-4" target="IJelXBSJ-IOQ2__WsTzv-6" edge="1">
           <mxGeometry x="-0.2305" y="23" relative="1" as="geometry">
             <mxPoint x="60.5" y="710" as="sourcePoint" />
             <Array as="points">
@@ -112,27 +112,27 @@
             <mxPoint x="-11" y="-20" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-8" value="判断是否是不需要验证的路径，是执行下列步骤" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;" vertex="1" connectable="0" parent="IJelXBSJ-IOQ2__WsTzv-7">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-8" value="判断是否是不需要验证的路径，是执行下列步骤" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;" parent="IJelXBSJ-IOQ2__WsTzv-7" vertex="1" connectable="0">
           <mxGeometry x="-0.1606" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-9" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Verdana;" edge="1" parent="IG3FBpjwl3Gu4T_X83VF-4">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-9" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Verdana;" parent="IG3FBpjwl3Gu4T_X83VF-4" edge="1">
           <mxGeometry x="-0.0018" y="31" width="80" relative="1" as="geometry">
             <mxPoint x="70" y="820" as="sourcePoint" />
             <mxPoint x="698.5" y="820" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-10" value="获取此客户端的service account token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;" vertex="1" connectable="0" parent="IJelXBSJ-IOQ2__WsTzv-9">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-10" value="获取此客户端的service account token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;" parent="IJelXBSJ-IOQ2__WsTzv-9" vertex="1" connectable="0">
           <mxGeometry x="0.0275" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Verdana;" vertex="1" parent="IG3FBpjwl3Gu4T_X83VF-4">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Verdana;" parent="IG3FBpjwl3Gu4T_X83VF-4" vertex="1">
           <mxGeometry x="55" y="940" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-12" value="self call" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontFamily=Verdana;" edge="1" target="IJelXBSJ-IOQ2__WsTzv-11" parent="IG3FBpjwl3Gu4T_X83VF-4">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-12" value="self call" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontFamily=Verdana;" parent="IG3FBpjwl3Gu4T_X83VF-4" target="IJelXBSJ-IOQ2__WsTzv-11" edge="1">
           <mxGeometry x="-0.2305" y="24" relative="1" as="geometry">
             <mxPoint x="65.5" y="900" as="sourcePoint" />
             <Array as="points">
@@ -143,24 +143,24 @@
             <mxPoint x="-2" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-13" value="将service account token 放入请求头，通过openfeign调用sso-service" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;" vertex="1" connectable="0" parent="IJelXBSJ-IOQ2__WsTzv-12">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-13" value="将service account token 放入请求头，通过openfeign调用sso-service" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;" parent="IJelXBSJ-IOQ2__WsTzv-12" vertex="1" connectable="0">
           <mxGeometry x="-0.1818" relative="1" as="geometry">
             <mxPoint y="12.79" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-14" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Verdana;" edge="1" parent="IG3FBpjwl3Gu4T_X83VF-4">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-14" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Verdana;" parent="IG3FBpjwl3Gu4T_X83VF-4" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="70" y="1000" as="sourcePoint" />
             <mxPoint x="367" y="1000" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Verdana;" vertex="1" parent="IG3FBpjwl3Gu4T_X83VF-4">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Verdana;" parent="IG3FBpjwl3Gu4T_X83VF-4" vertex="1">
           <mxGeometry x="362.5" y="1000" width="10" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Verdana;" vertex="1" parent="IG3FBpjwl3Gu4T_X83VF-4">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Verdana;" parent="IG3FBpjwl3Gu4T_X83VF-4" vertex="1">
           <mxGeometry x="372.5" y="1060" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-17" value="self call" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontFamily=Verdana;" edge="1" target="IJelXBSJ-IOQ2__WsTzv-16" parent="IG3FBpjwl3Gu4T_X83VF-4">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-17" value="self call" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontFamily=Verdana;" parent="IG3FBpjwl3Gu4T_X83VF-4" target="IJelXBSJ-IOQ2__WsTzv-16" edge="1">
           <mxGeometry x="-0.2308" y="-10" relative="1" as="geometry">
             <mxPoint x="382.5" y="1030" as="sourcePoint" />
             <Array as="points">
@@ -171,33 +171,33 @@
             <mxPoint x="10" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-18" value="判断发此来请求的一方的是否有权利调用自己，如果没有则报错，如果有，执行下列步骤" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;" vertex="1" connectable="0" parent="IJelXBSJ-IOQ2__WsTzv-17">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-18" value="判断发此来请求的一方的是否有权利调用自己，如果没有则报错，如果有，执行下列步骤" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;" parent="IJelXBSJ-IOQ2__WsTzv-17" vertex="1" connectable="0">
           <mxGeometry x="-0.1926" relative="1" as="geometry">
             <mxPoint x="5" y="8.79" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-19" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Verdana;" edge="1" parent="IG3FBpjwl3Gu4T_X83VF-4">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-19" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Verdana;" parent="IG3FBpjwl3Gu4T_X83VF-4" edge="1">
           <mxGeometry x="0.0319" y="20" width="80" relative="1" as="geometry">
             <mxPoint x="377.5" y="1130" as="sourcePoint" />
             <mxPoint x="707" y="1130" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-20" value="okhttp发处登出请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;" vertex="1" connectable="0" parent="IJelXBSJ-IOQ2__WsTzv-19">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-20" value="okhttp发处登出请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;" parent="IJelXBSJ-IOQ2__WsTzv-19" vertex="1" connectable="0">
           <mxGeometry x="0.0823" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="IG3FBpjwl3Gu4T_X83VF-4">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="IG3FBpjwl3Gu4T_X83VF-4" vertex="1">
           <mxGeometry x="700" y="810" width="15" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Verdana;" vertex="1" parent="IG3FBpjwl3Gu4T_X83VF-4">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Verdana;" parent="IG3FBpjwl3Gu4T_X83VF-4" vertex="1">
           <mxGeometry x="704.5" y="1125" width="10" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Verdana;" vertex="1" parent="IG3FBpjwl3Gu4T_X83VF-4">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Verdana;" parent="IG3FBpjwl3Gu4T_X83VF-4" vertex="1">
           <mxGeometry x="715" y="1175" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-24" value="self call" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontFamily=Verdana;" edge="1" target="IJelXBSJ-IOQ2__WsTzv-23" parent="IG3FBpjwl3Gu4T_X83VF-4">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-24" value="self call" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontFamily=Verdana;" parent="IG3FBpjwl3Gu4T_X83VF-4" target="IJelXBSJ-IOQ2__WsTzv-23" edge="1">
           <mxGeometry x="-0.2317" y="15" relative="1" as="geometry">
             <mxPoint x="720" y="1140" as="sourcePoint" />
             <Array as="points">
@@ -207,42 +207,42 @@
             <mxPoint x="-15" y="-15" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-25" value="返回新的access_token和refresh_token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;" vertex="1" connectable="0" parent="IJelXBSJ-IOQ2__WsTzv-24">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-25" value="返回新的access_token和refresh_token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;" parent="IJelXBSJ-IOQ2__WsTzv-24" vertex="1" connectable="0">
           <mxGeometry x="-0.2204" y="2" relative="1" as="geometry">
             <mxPoint y="3.5" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-26" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Verdana;" edge="1" parent="IG3FBpjwl3Gu4T_X83VF-4">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-26" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Verdana;" parent="IG3FBpjwl3Gu4T_X83VF-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="697.5" y="860" as="sourcePoint" />
             <mxPoint x="70" y="860" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-27" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Verdana;" edge="1" target="IJelXBSJ-IOQ2__WsTzv-15" parent="IG3FBpjwl3Gu4T_X83VF-4">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-27" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Verdana;" parent="IG3FBpjwl3Gu4T_X83VF-4" target="IJelXBSJ-IOQ2__WsTzv-15" edge="1">
           <mxGeometry x="-0.0006" y="-20" relative="1" as="geometry">
             <mxPoint x="707.5" y="1230" as="sourcePoint" />
             <mxPoint x="377.5" y="1230" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-28" value="返回access_token和refresh_token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;" vertex="1" connectable="0" parent="IJelXBSJ-IOQ2__WsTzv-27">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-28" value="返回access_token和refresh_token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;" parent="IJelXBSJ-IOQ2__WsTzv-27" vertex="1" connectable="0">
           <mxGeometry x="-0.1001" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-29" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Verdana;" edge="1" target="IJelXBSJ-IOQ2__WsTzv-5" parent="IG3FBpjwl3Gu4T_X83VF-4">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-29" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Verdana;" parent="IG3FBpjwl3Gu4T_X83VF-4" target="IJelXBSJ-IOQ2__WsTzv-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="367.5" y="1230" as="sourcePoint" />
             <mxPoint x="287.5" y="1230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-30" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Verdana;" edge="1" target="IJelXBSJ-IOQ2__WsTzv-4" parent="IG3FBpjwl3Gu4T_X83VF-4">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-30" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Verdana;" parent="IG3FBpjwl3Gu4T_X83VF-4" target="IJelXBSJ-IOQ2__WsTzv-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="50" y="1230" as="sourcePoint" />
             <mxPoint x="-42.5" y="1230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IG3FBpjwl3Gu4T_X83VF-20" value=":keycloak-server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+        <mxCell id="IG3FBpjwl3Gu4T_X83VF-20" value=":授权服务器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="960" width="100" height="2070" as="geometry" />
         </mxCell>
         <mxCell id="IG3FBpjwl3Gu4T_X83VF-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="IG3FBpjwl3Gu4T_X83VF-20" vertex="1">
@@ -336,28 +336,28 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-61" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Verdana;" edge="1" target="IJelXBSJ-IOQ2__WsTzv-64" parent="1">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-61" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Verdana;" parent="1" target="IJelXBSJ-IOQ2__WsTzv-64" edge="1">
           <mxGeometry x="-0.0095" y="20" width="80" relative="1" as="geometry">
             <mxPoint x="77.5" y="1350" as="sourcePoint" />
             <mxPoint x="-162.5" y="1350" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-62" value="执行登出请求，需要携带token和refresh_token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;" vertex="1" connectable="0" parent="IJelXBSJ-IOQ2__WsTzv-61">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-62" value="执行登出请求，需要携带token和refresh_token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;" parent="IJelXBSJ-IOQ2__WsTzv-61" vertex="1" connectable="0">
           <mxGeometry x="0.1799" y="1" relative="1" as="geometry">
             <mxPoint x="-22.5" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-63" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-63" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
           <mxGeometry x="60" y="1330" width="15" height="570" as="geometry" />
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-64" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-64" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
           <mxGeometry x="352.5" y="1340" width="15" height="550" as="geometry" />
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-65" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-65" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="355" y="1410" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-66" value="self call" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontFamily=Verdana;" edge="1" target="IJelXBSJ-IOQ2__WsTzv-65" parent="1">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-66" value="self call" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontFamily=Verdana;" parent="1" target="IJelXBSJ-IOQ2__WsTzv-65" edge="1">
           <mxGeometry x="-0.2305" y="23" relative="1" as="geometry">
             <mxPoint x="360.5" y="1360" as="sourcePoint" />
             <Array as="points">
@@ -366,27 +366,27 @@
             <mxPoint x="-11" y="-20" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-67" value="判断是否是不需要验证的路径，是执行下列步骤" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;" vertex="1" connectable="0" parent="IJelXBSJ-IOQ2__WsTzv-66">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-67" value="判断是否是不需要验证的路径，是执行下列步骤" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;" parent="IJelXBSJ-IOQ2__WsTzv-66" vertex="1" connectable="0">
           <mxGeometry x="-0.1606" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-68" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Verdana;" edge="1" parent="1">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-68" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Verdana;" parent="1" edge="1">
           <mxGeometry x="-0.0018" y="31" width="80" relative="1" as="geometry">
             <mxPoint x="370" y="1470" as="sourcePoint" />
             <mxPoint x="998.5" y="1470" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-69" value="获取此客户端的service account token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;" vertex="1" connectable="0" parent="IJelXBSJ-IOQ2__WsTzv-68">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-69" value="获取此客户端的service account token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;" parent="IJelXBSJ-IOQ2__WsTzv-68" vertex="1" connectable="0">
           <mxGeometry x="0.0275" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-70" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-70" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="355" y="1590" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-71" value="self call" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontFamily=Verdana;" edge="1" target="IJelXBSJ-IOQ2__WsTzv-70" parent="1">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-71" value="self call" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontFamily=Verdana;" parent="1" target="IJelXBSJ-IOQ2__WsTzv-70" edge="1">
           <mxGeometry x="-0.2305" y="24" relative="1" as="geometry">
             <mxPoint x="365.5" y="1550" as="sourcePoint" />
             <Array as="points">
@@ -397,24 +397,24 @@
             <mxPoint x="-2" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-72" value="将service account token 放入请求头，通过openfeign调用sso-service" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;" vertex="1" connectable="0" parent="IJelXBSJ-IOQ2__WsTzv-71">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-72" value="将service account token 放入请求头，通过openfeign调用sso-service" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;" parent="IJelXBSJ-IOQ2__WsTzv-71" vertex="1" connectable="0">
           <mxGeometry x="-0.1818" relative="1" as="geometry">
             <mxPoint y="12.79" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-73" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Verdana;" edge="1" parent="1">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-73" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Verdana;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="370" y="1650" as="sourcePoint" />
             <mxPoint x="667" y="1650" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-74" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-74" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="662.5" y="1650" width="10" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-75" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-75" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="672.5" y="1710" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-76" value="self call" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontFamily=Verdana;" edge="1" target="IJelXBSJ-IOQ2__WsTzv-75" parent="1">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-76" value="self call" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontFamily=Verdana;" parent="1" target="IJelXBSJ-IOQ2__WsTzv-75" edge="1">
           <mxGeometry x="-0.2308" y="-10" relative="1" as="geometry">
             <mxPoint x="682.5" y="1680" as="sourcePoint" />
             <Array as="points">
@@ -425,33 +425,33 @@
             <mxPoint x="10" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-77" value="判断发此来请求的一方的是否有权利调用自己，如果没有则报错，如果有，执行下列步骤" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;" vertex="1" connectable="0" parent="IJelXBSJ-IOQ2__WsTzv-76">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-77" value="判断发此来请求的一方的是否有权利调用自己，如果没有则报错，如果有，执行下列步骤" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;" parent="IJelXBSJ-IOQ2__WsTzv-76" vertex="1" connectable="0">
           <mxGeometry x="-0.1926" relative="1" as="geometry">
             <mxPoint x="5" y="8.79" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-78" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Verdana;" edge="1" parent="1">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-78" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Verdana;" parent="1" edge="1">
           <mxGeometry x="0.0319" y="20" width="80" relative="1" as="geometry">
             <mxPoint x="677.5" y="1780" as="sourcePoint" />
             <mxPoint x="1007" y="1780" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-79" value="okhttp发处登出请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;" vertex="1" connectable="0" parent="IJelXBSJ-IOQ2__WsTzv-78">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-79" value="okhttp发处登出请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;" parent="IJelXBSJ-IOQ2__WsTzv-78" vertex="1" connectable="0">
           <mxGeometry x="0.0823" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-80" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-80" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
           <mxGeometry x="1000" y="1460" width="15" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-81" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-81" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="1004.5" y="1775" width="10" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-82" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-82" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="1015" y="1825" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-83" value="self call" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontFamily=Verdana;" edge="1" target="IJelXBSJ-IOQ2__WsTzv-82" parent="1">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-83" value="self call" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontFamily=Verdana;" parent="1" target="IJelXBSJ-IOQ2__WsTzv-82" edge="1">
           <mxGeometry x="-0.2317" y="15" relative="1" as="geometry">
             <mxPoint x="1020" y="1790" as="sourcePoint" />
             <Array as="points">
@@ -461,48 +461,48 @@
             <mxPoint x="-15" y="-15" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-84" value="清除会话，且无效此token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;" vertex="1" connectable="0" parent="IJelXBSJ-IOQ2__WsTzv-83">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-84" value="清除会话，且无效此token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;" parent="IJelXBSJ-IOQ2__WsTzv-83" vertex="1" connectable="0">
           <mxGeometry x="-0.2204" y="2" relative="1" as="geometry">
             <mxPoint y="3.5" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-85" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Verdana;" edge="1" parent="1">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-85" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Verdana;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="997.5" y="1510" as="sourcePoint" />
             <mxPoint x="370" y="1510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-86" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Verdana;" edge="1" target="IJelXBSJ-IOQ2__WsTzv-74" parent="1">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-86" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Verdana;" parent="1" target="IJelXBSJ-IOQ2__WsTzv-74" edge="1">
           <mxGeometry x="-0.0006" y="-20" relative="1" as="geometry">
             <mxPoint x="1007.5" y="1880" as="sourcePoint" />
             <mxPoint x="377.5" y="1880" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-87" value="返回access_token和refresh_token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;" vertex="1" connectable="0" parent="IJelXBSJ-IOQ2__WsTzv-86">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-87" value="返回access_token和refresh_token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;" parent="IJelXBSJ-IOQ2__WsTzv-86" vertex="1" connectable="0">
           <mxGeometry x="-0.1001" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-88" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Verdana;" edge="1" target="IJelXBSJ-IOQ2__WsTzv-64" parent="1">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-88" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Verdana;" parent="1" target="IJelXBSJ-IOQ2__WsTzv-64" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="667.5" y="1880" as="sourcePoint" />
             <mxPoint x="287.5" y="1880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-89" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Verdana;" edge="1" target="IJelXBSJ-IOQ2__WsTzv-63" parent="1">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-89" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Verdana;" parent="1" target="IJelXBSJ-IOQ2__WsTzv-63" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="350" y="1880" as="sourcePoint" />
             <mxPoint x="-42.5" y="1880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-90" value="登录" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-90" value="登录" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry y="50" width="42.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-91" value="刷新" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=21;verticalAlign=top;align=center;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-91" value="刷新" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=21;verticalAlign=top;align=center;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry y="680" width="42.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IJelXBSJ-IOQ2__WsTzv-92" value="注销" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=21;verticalAlign=top;align=center;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="IJelXBSJ-IOQ2__WsTzv-92" value="注销" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=21;verticalAlign=top;align=center;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry y="1320" width="42.5" height="60" as="geometry" />
         </mxCell>
       </root>
